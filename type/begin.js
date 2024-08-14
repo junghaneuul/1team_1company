@@ -1,0 +1,14 @@
+var str1 = "hi";
+var num1 = 523;
+var num2 = 1;
+num1 = 5;
+console.log(str1);
+console.log(num1 + num2);
+console.log("-----------------");
+var arr1 = [2, 3, 4, 5, 6];
+var arr2 = [5, 6, 7, 8, 9];
+console.log(arr1);
+console.log(arr2);
+console.log("-----------------");
+var bOk = true;
+console.log(bOk);

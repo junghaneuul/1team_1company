@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+ <title>권기현똥</title>
+ <script>
+ function exec() {
+	var outTag = "";
+	var inNum = tx1.value;
+	for (i = 1; i < 10; i++)
+	{
+		outTag += inNum + " x " + i + " = " + (i * inNum);
+		outTag += "<br>";
+	}
+	document.getElementById("out1").innerHTML = outTag;
+ }
+ </script>
+</head>
+<!--바디 시작-->
+ <body style="background-color:lightgrey">
+  입력 <input type=text id=tx1><button type=button onclick=exec()>실행</button><br>
+  <div id=out1></div><br>
+  --------------------
+ </body>
+</html>

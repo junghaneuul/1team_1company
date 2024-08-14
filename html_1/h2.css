@@ -1,0 +1,62 @@
+body {
+    background-color: beige;
+}
+h2, h3 {
+    color: blue;
+}
+p {
+    color: rgb(160, 16, 57);
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+}
+a[target] {
+    color: red;
+}
+.mytitle {
+    color: purple;
+    font-size: 30px;
+}
+.myfont1 {
+    font-size: 20px;
+}
+.myfont2 {
+    font-size: 3rem;
+    font-style: italic;
+}
+.mydiv {
+    border: 1px solid;
+    background-color: yellow;
+    width: 50vw;
+    height: 100px;
+}
+div > p {
+    color: white;
+}
+li span{
+    color: coral;
+}
+
+
+.doc {
+    border: 1px solid red;
+}
+
+.text-l {
+    text-align: left;
+    height: 100px;
+}
+.text-r {
+    text-align: right;
+}
+.text-c {
+    text-align: center;
+}
+
+.textpp {
+    letter-spacing: 1.5px;
+    word-spacing: 1px;
+    line-height: 1.8rem;
+    text-indent: 30px;
+}
